@@ -1,0 +1,3 @@
+Since we have the name of the variable to set stored in a variable, we can't set the variable directly, we have to use eval to actually do the setting.
+The eval statement basically tells bash to interpret the line twice, the first interpretation above results in the string result='some value' which is
+then interpreted once more and ends up setting the caller's variable.
